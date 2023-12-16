@@ -208,8 +208,8 @@
        addSnow(scene, uniforms);
  
        range(10).map(i => {
-        addTree(scene, uniforms, totalPoints, [10, 0, -10 * i]);
-        addTree(scene, uniforms, totalPoints, [-10, 0, -10 * i]);
+        addTree(scene, uniforms, totalPoints, [20, 0, -20 * i]);
+        addTree(scene, uniforms, totalPoints, [-20, 0, -20 * i]);
        });
  
        const renderScene = new THREE.RenderPass(scene, camera);
